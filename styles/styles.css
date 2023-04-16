@@ -15,18 +15,27 @@
 .header {
     height: 100%;
     z-index: 1000;
+    background-color: #FFA400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 .header__container1 {
-    background-color: #FFA400; 
     height: 43px;
-    /* DIV antes del nav (logo naik NEGRO arriba del nav)*/
+    /* contenedor del nav(logo naik NEGRO arriba del nav)*/
 }
+
 .header__container1__img {
     height: 40px;
 }
+
+
+
+
+
 
 
 
@@ -36,18 +45,16 @@
     top: 0;
     z-index: 1000;
     background-color: black ;
-    /*fondo del header2 (nav)*/
+    height: 83px;
+    /*fondo del (nav)*/
 }
-
-
 
 .nav__box {
     display: flex;
-    
+    width: 100%;
 }
 
 .nav__container1 {
-    display: inline-block;
     padding: 10px;
     /*Logo naik BLANCO*/
 }
@@ -55,16 +62,16 @@
     height: 60px;
 }
 
-
-
 .nav__container2 {
-    display: inline-block;
-    padding: 10px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
     /*Menu del nav*/
 }
 .nav__container2__menu {
+    display: flex;
     list-style-type: none;
-   
+    padding-left: 325px;
 }
 .nav__container2__menu__list a:hover {
     color: #FFA400;
@@ -73,30 +80,46 @@
 .nav__container2__menu__Links {
     text-decoration: none;
     color: white;
+    height: fit-content;
+    font-size: 17px; 
+    padding: 10px 100px;
+    
 }
 
-
-
 .nav__container3 {
-    display: inline-block;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /*Buscador de la pagina*/
 }
 .nav__container3__form_input {
     border-radius: 5px;
     border-color: #FFA400;
+    height: 35px;
+    width: 200px;
+    font-size: 14px;
 }
-
-
 
 .nav__container4 {
-    display: inline-block;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /*Carrito de compras y favoritos*/
 }
-.nav__container4__img {
-    width: 20px;
+
+.nav__container4 a {
+    padding: 10px 0;
+    padding-left: 30px;
 }
+
+.nav__container4__img {
+    width: 23px;
+}
+
+
+
+
+
 
 /*INDEX*/
 /*banner+button para acceder a productos (index)*/
