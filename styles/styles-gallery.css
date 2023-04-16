@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+.html {
+  font-size: 62.5%;
+  /* Cambia la medida del rem de 16px a 10px*/
+}
+
+
+.header1 {
+    height: 100%;
+    z-index: 1000;
+}
+
+
+
+.header__container1 {
+    background-color: #FFA400; 
+    height: 43px;
+    /* DIV antes del nav (logo naik NEGRO arriba del nav)*/
+}
+.header__container1__img {
+    height: 40px;
+}
+
+
+
+.header2 {
+    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black ;
+    /*fondo del header2 (nav)*/
+}
+
+
+
+.nav {
+    display: flex;
+    
+}
+.nav__container1 {
+    display: inline-block;
+    padding: 10px;
+    /*Logo naik BLANCO*/
+}
+.nav__container1__img {
+    height: 60px;
+}
+
+
+
+.nav__container2 {
+    display: inline-block;
+    padding: 10px;
+    font-size: 10px;
+    /*Menu del nav*/
+}
+.nav__container2__menu {
+    list-style-type: none;
+   
+}
+.nav__container2__menu__list a:hover {
+    color: #FFA400;
+    
+}
+.nav__container2__menu__Links {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.nav__container3 {
+    display: inline-block;
+    padding: 10px;
+    /*Buscador de la pagina*/
+}
+.nav__container3__form_input {
+    border-radius: 5px;
+    border-color: #FFA400;
+    height: 16px;
+    width: 132px;
+    font-size: 10px;
+}
+
+
+
+.nav__container4 {
+    display: inline-block;
+    padding: 10px;
+    /*Carrito de compras y favoritos*/
+}
+.nav__container4__img {
+    width: 20px;
+}
+
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gallery__item1,
+.gallery__item2,
+.gallery__item3,
+.gallery__item4,
+.gallery__item5,
+.gallery__item6,
+.gallery__item7,
+.gallery__item8,
+.gallery__item9,
+.gallery__item10,
+.gallery__item11,
+.gallery__item12,
+.gallery__item13,
+.gallery__item14,
+.gallery__item15,
+.gallery__item16,
+.gallery__item17,
+.gallery__item18,
+.gallery__item19,
+.gallery__item20 {
+    flex-basis: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+  
+.gallery__item1__img,
+.gallery__item2__img,
+.gallery__item3__img,
+.gallery__item4__img,
+.gallery__item5__img,
+.gallery__item6__img,
+.gallery__item7__img,
+.gallery__item8__img,
+.gallery__item9__img,
+.gallery__item10__img,
+.gallery__item11__img,
+.gallery__item12__img,
+.gallery__item13__img,
+.gallery__item14__img,
+.gallery__item15__img,
+.gallery__item16__img,
+.gallery__item17__img,
+.gallery__item18__img,
+.gallery__item19__img,
+.gallery__item20__img{
+    border: 1px solid black;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    height: 100%;
+}
+
+
+
+.footer__info {
+    flex-basis: 20%;
+}
+.footer__info__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer__info__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}  
+.footer__info__list__li {
+    margin-bottom: 5px;
+}
+.footer__info__list__li__link {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+
+
+.footer__map {
+    flex-basis: 20%;
+} 
+.footer__map__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+} 
+.footer__map__iframe {
+    border: none;
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.footer__support {
+    flex-basis: 20%;
+    padding-left: 40px;
+} 
+.footer__support__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer__support__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer__support__list__li {
+    margin-bottom: 5px;
+} 
+.footer__support__list__li__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.footer__social {
+    flex-basis: 15%;
+}
+.footer__social__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer__social__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}  
+.footer__social__list__li {
+    margin-bottom: 5px;
+}
+.footer__social__list__li__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Barra de scroll */
+::-webkit-scrollbar {
+    width: 10px;
+/* Ancho de la barra de scroll */
+}
+
+/* Puntero de la barra de scroll */
+::-webkit-scrollbar-thumb {
+    background-color: #FFA400;
+    /* Color del puntero */
+    /* Radio de la esquina del puntero */
+}
+
+/*Pista de la barra de desplazamiento*/
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+/* Barra de scroll (Firefox) */
+::-moz-scrollbar {
+    width: 10px;
+}
+
+/* Puntero de la barra de scroll (Firefox) */
+::-moz-scrollbar-thumb {
+    background-color: #FFA400;
+}
