@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="shortcut icon" href="images/NAIK WHITE ICO.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,13 +14,14 @@
 </head>
 
 <body class="body">
-    <header class="header1">
+    <header class="header">
         <div class="header__container1">
             <a href="#"><img class="header__container1__img" src="images/NAIK BLACK.png" alt="LOGO NAIK"></a>
         </div>
     </header>
-    <header class="header2">
-        <nav class="nav">
+
+    <nav class="nav">
+        <div class="nav__box">
             <div class="nav__container1">
                 <a href="#"><img class="nav__container1__img" src="images/NAIK NAV BLANCO.png" alt="LOGO NAIK"></a>
             </div>
@@ -45,8 +45,8 @@
                 <a href="#"><img class="nav__container4__img" src="images/FAVORITOS.png" alt="FAVORITOS"></a>
                 <a href="#"><img class="nav__container4__img" src="images/CARRITO DE COMPRAS.png" alt="Carrito de compras"></a>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     
     <section class="section1">
         <img class="section1__img" src="images/BANNER NAIK.jpg" alt="BANNER">
@@ -73,16 +73,14 @@
             </div>
         </section>
 
-        <section>
-            <div class="main__container2">
-                <h2 class="main__container2__h2">Productos destacados</h2>
-                <button class="main__container2__button"><a class="main__container2__button__link" href="#">Ver todo</a></button>
-                <div class="main__container2__set1">
-                    <a href="#"><img class="main__container2__set1__img" src="images/BOTITAS NAIK AIR FORCE 1 MID 07 LV8.jpeg" alt="NAIK RUNNING"></a>
-                </div>
-                <div class="main__container2__set2">
-                    <a href="#"><img class="main__container2__set2__img" src="images/ZAPATILLAS JORDAN AIR 1 MID.jpeg" alt="NAIK BASKETBALL"></a>
-                </div>
+        <section class="main__container2">
+            <h2 class="main__container2__h2">Productos destacados</h2>
+            <button class="main__container2__button"><a class="main__container2__button__link" href="#">Ver todo</a></button>
+            <div class="main__container2__set1">
+                <a href="#"><img class="main__container2__set1__img" src="images/BOTITAS NAIK AIR FORCE 1 MID 07 LV8.jpeg" alt="NAIK RUNNING"></a>
+            </div>
+            <div class="main__container2__set2">
+                <a href="#"><img class="main__container2__set2__img" src="images/ZAPATILLAS JORDAN AIR 1 MID.jpeg" alt="NAIK BASKETBALL"></a>
             </div>
         </section>
 
@@ -90,42 +88,36 @@
             <img src="images/NAIK DUNK.jpg" alt="NAIK DUNK">
         </section>
 
-        <section>
-            <div class="main__container3">
-                <h2 class="main__container3__h2">Hombres</h2>
-                <button class="main__container3__button"><a class="main__container3__button__link" href="#">Ver todo</a></button>
-                <div class="main__container3__set1">
-                    <a href="#"><img class="main__container3__set1__img" src="images/BOTITAS NAIK DUNK HI RETRO.jpeg" alt="NAIK RUNNING"></a>
-                </div>
-                <div class="main__container3__set2">
-                    <a href="#"><img class="main__container3__set2__img" src="images/BOTITAS AIR JORDAN 1 MID.jpeg" alt="NAIK BASKETBALL"></a>
-                </div>
+        <section class="main__container3">
+            <h2 class="main__container3__h2">Hombres</h2>
+            <button class="main__container3__button"><a class="main__container3__button__link" href="#">Ver todo</a></button>
+            <div class="main__container3__set1">
+                <a href="#"><img class="main__container3__set1__img" src="images/BOTITAS NAIK DUNK HI RETRO.jpeg" alt="NAIK RUNNING"></a>
+            </div>
+            <div class="main__container3__set2">
+                <a href="#"><img class="main__container3__set2__img" src="images/BOTITAS AIR JORDAN 1 MID.jpeg" alt="NAIK BASKETBALL"></a>
             </div>
         </section>
 
-        <section>
-            <div class="main__container4">
-                <h2 class="main__container4__h2">Mujeres</h2>
-                <button class="main__container4__button"><a class="main__container4__button__link" href="#">Ver todo</a></button>
-                <div class="main__container4__set1">
-                    <a href="#"><img class="main__container4__set1__img" src="images/ZAPATILLAS NAIK AIR FORCE 1 REACT.jpeg" alt="NAIK RUNNING"></a>
-                </div>
-                <div class="main__container4__set2">
-                    <a href="#"><img class="main__container4__set2__img" src="images/BOTITAS NAIK BLAZER MID 77 SE.jpeg" alt="NAIK BASKETBALL"></a>
-                </div>
+        <section class="main__container4">
+            <h2 class="main__container4__h2">Mujeres</h2>
+            <button class="main__container4__button"><a class="main__container4__button__link" href="#">Ver todo</a></button>
+            <div class="main__container4__set1">
+                <a href="#"><img class="main__container4__set1__img" src="images/ZAPATILLAS NAIK AIR FORCE 1 REACT.jpeg" alt="NAIK RUNNING"></a>
+            </div>
+            <div class="main__container4__set2">
+                <a href="#"><img class="main__container4__set2__img" src="images/BOTITAS NAIK BLAZER MID 77 SE.jpeg" alt="NAIK BASKETBALL"></a>
             </div>
         </section>
 
-        <section>
-            <div class="main__container5">
-                <h2 class="main__container5__h2">Niños/as</h2>
-                <button class="main__container5__button"><a class="main__container5__button__link" href="#">Ver todo</a></button>
-                <div class="main__container5__set1">
-                    <a href="#"><img class="main__container5__set1__img" src="images/ZAPATILLAS NAIK AIR FORCE 1 07 NEXT NATURE.jpeg" alt="NAIK RUNNING"></a>
-                </div>
-                <div class="main__container5__set2">
-                    <a href="#"><img class="main__container5__set2__img" src="images/ZAPATILLAS NAIK AIR FORCE 1 ROSE.jpeg" alt="NAIK BASKETBALL"></a>
-                </div>
+        <section class="main__container5">
+            <h2 class="main__container5__h2">Niños/as</h2>
+            <button class="main__container5__button"><a class="main__container5__button__link" href="#">Ver todo</a></button>
+            <div class="main__container5__set1">
+                <a href="#"><img class="main__container5__set1__img" src="images/ZAPATILLAS NAIK AIR FORCE 1 07 NEXT NATURE.jpeg" alt="NAIK RUNNING"><a>
+            </div>
+            <div class="main__container5__set2">
+                <a href="#"><img class="main__container5__set2__img" src="images/ZAPATILLAS NAIK AIR FORCE 1 ROSE.jpeg" alt="NAIK BASKETBALL"></a>
             </div>
         </section>
 
@@ -133,24 +125,22 @@
             <img src="images/JUST DO IT..png" alt="JUST DO IT.">
         </section>
 
-        <section>
-            <div class="contact">
-                <div class="contact__container">
-                  <h2 class="contact__container__h2">Contacto</h2>
-                  <form class="contact__container__form">
+        <section class="contact">
+            <div class="contact__container">
+                <h2 class="contact__container__h2">Contacto</h2>
+                <form class="contact__container__form">
                     <label class="contact__container__form__label1" for="nombre">Nombre:</label>
                     <input class="contact__container__form__input1" type="text" id="nombre" name="nombre" required>
-              
+        
                     <label class="contact__container__form__label2" for="email">Email:</label>
                     <input class="contact__container__form__input2" type="email" id="email" name="email" required>
-              
+        
                     <label class="contact__container__form__label3" for="mensaje">Mensaje:</label>
                     <textarea class="contact__container__form__textarea" id="mensaje" name="mensaje" required></textarea>
-
-                    <input class="contacto__container__form__submit type="submit" value="Enviar">
-                  </form>
-                </div>
-              </div>
+        
+                    <input class="contacto__container__form__submit type=" submit" value="Enviar">
+                </form>
+            </div>
         </section>
 
     </main>
