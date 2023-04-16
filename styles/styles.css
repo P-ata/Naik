@@ -183,7 +183,7 @@
 
 /*main (index)*/
 .main {
-    height: 4200px;
+    height: fit-content;
 }
 
 
@@ -382,24 +382,30 @@
 /*contacto (index)*/
 .contact {
     display: flex;
-    height: fit-content;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
 }
   
 .contact__container {
     background-color: #fff;
-    border: 1px solid #000;
+    border: 3px solid #000;
     padding: 20px;
     width: 80%;
     max-width: 600px;
+    background-color: #FFA400;
 }
   
 .contact__container__h2 {
     color: #000;
     text-align: center;
+    font-size: 25px;
 }
   
 .contact__container__form {
     display: flex;
+    flex-direction: column;
+    font-size: 18px;
 }
   
 .contact__container__form__label1,
@@ -412,8 +418,7 @@
 .contact__container__form__input1,
 .contact__container__form__input2,
 .contact__container__form__textarea {
-    border: none;
-    border-bottom: 1px solid #000;
+    border: 1px solid #000;
     margin-top: 5px;
     padding: 5px;
 }
@@ -423,17 +428,28 @@
     height: 100px;
 }
   
+.contacto__container__form__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contacto__container__form__submit {
     background-color: #000;
     color: #fff;
     border: none;
     padding: 10px;
+    padding-left: 27px;
     margin-top: 10px;
     cursor: pointer;
+    width: 100px;
+    font-size: 14px;
+
 }
-  
+
+
 .contacto__container__form__submit:hover {
-    background-color: #fff;
+    background-color: #FFA400;
     color: #000;
     transition: all 0.3s ease;
 }
@@ -740,7 +756,11 @@
     color: #fff;
     display: flex;
     font-size: 14px;
-    height: 100%;
+    height: 230px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-top: #FFA400 solid;
 }
 
 
@@ -749,9 +769,11 @@
     flex-basis: 20%;
 }
 .footer__info__title {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 16px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 .footer__info__list {
     margin: 0;
@@ -760,26 +782,27 @@
 }  
 .footer__info__list__li {
     margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer__info__list__li__link {
     color: #fff;
     text-decoration: none;
 }
- 
+.footer__info__list__li__link:hover {
+    color: #FFA400;
+}
 
 
 .footer__map {
     flex-basis: 20%;
-} 
-.footer__map__title {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 16px;
+    padding-left: 60px;
 } 
 .footer__map__iframe {
     border: none;
     width: 100%;
-    height: 250px;
+    height: 180px;
 }
 
 
@@ -790,8 +813,11 @@
 } 
 .footer__support__title {
     margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer__support__list {
     margin: 0;
@@ -800,6 +826,9 @@
 }
 .footer__support__list__li {
     margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 } 
 .footer__support__list__li__link {
     color: #fff;
@@ -813,8 +842,11 @@
 }
 .footer__social__title {
     margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer__social__list {
     margin: 0;
@@ -823,6 +855,9 @@
 }  
 .footer__social__list__li {
     margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer__social__list__li__link {
     color: #fff;
@@ -830,10 +865,63 @@
 }
 
 
+.footer__newsletter {
+    flex-basis: 15%;
+    
+}
+
+.footer__newsletter__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
+.footer__newsletter__form {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.footer__newsletter__form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.footer__newsletter__form1__input{
+    width: 30px;
+    
+}
+
+.footer__newsletter__form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.footer__newsletter__form2__button {
+padding: 7px;
+
+}
+
+.footer__copyright {
+    background-color: #FFA400;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright p {
+    font-size: 15px;
+}
 
 
 
