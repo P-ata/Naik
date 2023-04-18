@@ -187,8 +187,8 @@
     display: inline-block;
     background-color: black;
     color: #fff;
-    border: none;
     padding: 10px 20px;
+    border: none;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -227,15 +227,15 @@
 }
 .main__container1__set1 {
     padding: 40px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .main__container1__set2 {
     padding: 40px; 
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .main__container1__set3 {
     padding: 40px; 
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .main__container1__set1__h2, 
 .main__container1__set2__h2, 
@@ -280,32 +280,30 @@
     opacity: 1;
 }
 
-/*Productos destacados (index)*/
+/*Productos destacados,hombres,mujeres y niños (index)*/
 .main__container2 {
-    height: fit-content;
+    height: 720px;
     text-align: center;
+    background-color: #FFC65C;
+    border-radius: 10px;
+    width: fit-content;
+    width: 1000px;
+    justify-content: center;
+    margin-left: 24%;
+    margin-top: 60px;
+    border: 1px solid #FFA400;
 }
 .main__container2__h2{
     font-weight: 900;
     font-size: 40px;
-}
-.main__container2__set1{
-    display: inline-block
-}
-.main__container2__set2{
-    display: inline-block;
-}
-.main__container2__set1__img, .main__container2__set2__img {
-    width: 407px;
-    height: 522px;
-
+    padding: 10px;
 }
 .main__container2__button {
     display: flex;
-    margin-left: 895px;
-    border-radius: 12px;
-    border: 0;
-    padding: 3px 8px;
+    margin-left: 438px;
+    border-radius: 2px;
+    border: none;
+    padding: 5px 13px;
     background-color: black;
     color: #F5F5F5;
 }
@@ -316,10 +314,12 @@
 
 }
 .main__container2__button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FFA400;
+    cursor: pointer;
 }
 .main__container2__button__link:hover {
-    color: #ffa400;
+    color: #000;
+    font-weight: bold;  
 }
 .product__container1 {
     display: flex;
@@ -330,12 +330,11 @@
 }
 .product__container1__row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
 .product__container1__item {
-    width: calc(25% - 20px);
+    width: 430px;
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -367,136 +366,29 @@
     background-color: #0052a3;
 }
 
+/*section dunk (index)*/
 
-
-
-/*hombres (index)*/
-.main__container3 {
-    height: fit-content;
-    text-align: center;
-}
-.main__container3__h2{
-    font-weight: 900;
-    font-size: 40px;
-}
-.main__container3__set1{
-    display: inline-block
-}
-.main__container3__set2{
-    display: inline-block;
-}
-.main__container3__set1__img, .main__container3__set2__img {
-    width: 407px;
-    height: 522px;
-
-}
-.main__container3__button {
+.section__dunk {
     display: flex;
-    margin-left: 895px;
-    border-radius: 12px;
-    border: 0;
-    padding: 3px 8px;
-    background-color: black;
-    color: #F5F5F5;
-}
-.main__container3__button__link {
-    font-size: 20px;
-    text-decoration: none;
-    color: #F5F5F5;
-
-}
-.main__container3__button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-.main__container3__button__link:hover {
-    color: #ffa400;
+    justify-content: center;
+    margin-top: 60px;
 }
 
+.section__dunk__img {
+    border-radius: 2px;
+}
 
-/*mujeres (index)*/
-.main__container4 {
-    height: fit-content;
-    text-align: center;
-}
-.main__container4__h2{
-    font-weight: 900;
-    font-size: 40px;
-}
-.main__container4__set1{
-    display: inline-block
-}
-.main__container4__set2{
-    display: inline-block;
-}
-.main__container4__set1__img, .main__container4__set2__img {
-    width: 407px;
-    height: 522px;
-
-}
-.main__container4__button {
+.section__JUST {
     display: flex;
-    margin-left: 895px;
-    border-radius: 12px;
-    border: 0;
-    padding: 3px 8px;
-    background-color: black;
-    color: #F5F5F5;
+    justify-content: center;
+    margin-top: 60px;
 }
-.main__container4__button__link {
-    font-size: 20px;
-    text-decoration: none;
-    color: #F5F5F5;
 
-}
-.main__container4__button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-.main__container4__button__link:hover {
-    color: #ffa400;
+.section__JUST__img {
+    border-radius: 2px;
 }
 
 
-/*Niños/as (index)*/
-.main__container5 {
-    height: fit-content;
-    text-align: center;
-}
-.main__container5__h2{
-    font-weight: 900;
-    font-size: 40px;
-}
-.main__container5__set1{
-    display: inline-block
-}
-.main__container5__set2{
-    display: inline-block;
-}
-.main__container5__set1__img, .main__container5__set2__img {
-    width: 407px;
-    height: 522px;
-
-}
-.main__container5__button {
-    display: flex;
-    margin-left: 895px;
-    border-radius: 12px;
-    border: 0;
-    padding: 3px 8px;
-    background-color: black;
-    color: #F5F5F5;
-}
-.main__container5__button__link {
-    font-size: 20px;
-    text-decoration: none;
-    color: #F5F5F5;
-
-}
-.main__container5__button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-.main__container5__button__link:hover {
-    color: #ffa400;
-}
 
 
 /*contacto (index)*/
@@ -602,6 +494,10 @@
     background-color: white;
     border: 3px solid #FFA400;
 }
+.account__container__img {
+    width: 100px;
+    margin-left: 192px;
+}
 .account__container__title {
     text-align: center;
     margin-bottom: 30px;
@@ -615,6 +511,7 @@
 .account__container__form__label3,
 .account__container__form__label4 {
     margin-bottom: 10px;
+    font-size: 15px;
 }
 .account__container__form__input1,
 .account__container__form__input2,
@@ -652,7 +549,7 @@
 /*ABOUT US*/
 .main1 {
     max-width: 800px;
-    height: 850px;
+    height: 820px;
     margin: 0 auto;
     padding: 20px;
 }
