@@ -11,6 +11,7 @@
 }
 
 
+
 /*header+nav (all pages)*/
 .header {
     height: 100%;
@@ -25,7 +26,7 @@
 
 .header__container1 {
     height: 43px;
-    /* contenedor del nav(logo naik NEGRO arriba del nav)*/
+    /* logo naik NEGRO arriba del nav*/
 }
 
 .header__container1__img {
@@ -34,11 +35,7 @@
 
 
 
-
-
-
-
-
+/*nav (all pages)*/
 .nav {
     height: 100%;
     position: sticky;
@@ -54,6 +51,8 @@
     width: 100%;
 }
 
+
+
 .nav__container1 {
     padding: 10px;
     /*Logo naik BLANCO*/
@@ -61,6 +60,8 @@
 .nav__container1__img {
     height: 60px;
 }
+
+
 
 .nav__container2 {
     width: fit-content;
@@ -86,6 +87,8 @@
     
 }
 
+
+
 .nav__container3 {
     display: flex;
     justify-content: center;
@@ -99,6 +102,8 @@
     width: 200px;
     font-size: 14px;
 }
+
+
 
 .nav__container4 {
     display: flex;
@@ -115,6 +120,7 @@
 .nav__container4__img {
     width: 23px;
 }
+
 
 
 
@@ -151,6 +157,9 @@
     text-align: center;
     z-index: 10;
 }
+
+
+
 .section1__container__div1{
     padding: 10px;
     padding-top: 40px;
@@ -166,6 +175,9 @@
     width: fit-content;
     height: fit-content;
 }
+
+
+
 .section1__container__div2{
     padding: 10px;
     display: flex;
@@ -180,6 +192,9 @@
     width: fit-content;
     height: fit-content;
 }
+
+
+
 .section1__container__div3{
     padding: 20px;
 }
@@ -213,6 +228,11 @@
 }
 
 
+
+
+
+
+
 /*main (index)*/
 .main {
     height: fit-content;
@@ -229,10 +249,12 @@
     padding: 40px;
     padding-top: 80px;
 }
+
 .main__container1__set2 {
     padding: 40px; 
     padding-top: 80px;
 }
+
 .main__container1__set3 {
     padding: 40px; 
     padding-top: 80px;
@@ -280,6 +302,13 @@
     opacity: 1;
 }
 
+
+
+
+
+
+
+
 /*Productos destacados,hombres,mujeres y niños (index)*/
 .main__container2 {
     height: 720px;
@@ -293,6 +322,8 @@
     margin-top: 60px;
     border: 1px solid #FFA400;
 }
+
+
 .main__container2__h2{
     font-weight: 900;
     font-size: 40px;
@@ -321,6 +352,8 @@
     color: #000;
     font-weight: bold;  
 }
+
+
 .product__container1 {
     display: flex;
     flex-wrap: wrap;
@@ -366,6 +399,11 @@
     background-color: #0052a3;
 }
 
+
+
+
+
+
 /*section dunk (index)*/
 
 .section__dunk {
@@ -378,6 +416,7 @@
     border-radius: 2px;
 }
 
+/*section JUST (index)*/
 .section__JUST {
     display: flex;
     justify-content: center;
@@ -387,6 +426,7 @@
 .section__JUST__img {
     border-radius: 2px;
 }
+
 
 
 
@@ -459,7 +499,6 @@
 
 }
 
-
 .contacto__container__form__submit:hover {
     background-color: #141414;
     color: #FFA400;
@@ -484,6 +523,7 @@
     background-color: #141414;
     font-size: 62.5%;
 }
+
 .account__container {
     position: absolute;
     top: 50%;
@@ -494,6 +534,9 @@
     background-color: white;
     border: 3px solid #FFA400;
 }
+
+
+
 .account__container__img {
     width: 100px;
     margin-left: 192px;
@@ -506,6 +549,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .account__container__form__label1,
 .account__container__form__label2,
 .account__container__form__label3,
@@ -513,6 +557,7 @@
     margin-bottom: 10px;
     font-size: 15px;
 }
+
 .account__container__form__input1,
 .account__container__form__input2,
 .account__container__form__input3,
@@ -524,6 +569,7 @@
     border-radius: 5px;
     font-size: 16px;
 }
+
 .account__container__form__submit {
     background-color: #FFA400;
     color: white;
@@ -629,12 +675,15 @@
     gap: 20px;
     padding: 20px;
 }
+
 .product__row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
+
+
 .product__item {
     width: calc(25% - 20px);
     background-color: #fff;
@@ -667,7 +716,6 @@
 .product__item button:hover {
     background-color: #0052a3;
 }
-
 /*PRODUCTS*/
 
 
@@ -677,20 +725,18 @@
 
 
 
-
-
-
-
-
-
-
 /*GALLERY*/
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.main2 {
+    max-width: 1400px;
+    margin: 20px auto;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
 .gallery__item1,
 .gallery__item2,
 .gallery__item3,
@@ -711,12 +757,11 @@
 .gallery__item18,
 .gallery__item19,
 .gallery__item20 {
-    flex-basis: 25%;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
 }
-  
 .gallery__item1__img,
 .gallery__item2__img,
 .gallery__item3__img,
@@ -736,25 +781,16 @@
 .gallery__item17__img,
 .gallery__item18__img,
 .gallery__item19__img,
-.gallery__item20__img{
-    border: 1px solid black;
-    max-width: 100%;
-    height: auto;
+.gallery__item20__img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3px;
+    border: none;
 }
 /*GALLERY*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -950,10 +986,6 @@ padding: 7px;
 }
 
 
-
-
-
-
 /* Barra de scroll */
 ::-webkit-scrollbar {
     width: 10px;
@@ -981,13 +1013,6 @@ padding: 7px;
 ::-moz-scrollbar-thumb {
     background-color: #FFA400;
 }
-
-
-
-
-
-
-
 
 
 
