@@ -121,8 +121,127 @@
     width: 23px;
 }
 
+@media (max-width: 1880px) {
+    .nav__container2__menu {
+        padding-left: 35px;
+    } 
+}
+@media (max-width: 1583px) {
+    .nav__container2__menu {
+        padding-left: 1px;
+    } 
+}
+@media (max-width: 1554px) {
+    .nav__container2__menu {
+        padding-left: 0px;
+    } 
+    .nav__container2__menu__Links {
+        padding: 10px 80px;
+        
+    }
+}
+@media (max-width: 1400px) {
+    .nav__container2__menu__Links {
+        padding: 10px 20px;
+    }
+}
+@media (max-width: 930px) {
+    .nav__container2__menu__Links {
+        padding: 2px 8px;
+    }
+    
+    .nav__container4 a {
+        padding: 2px 0;
+        padding-left: 10px;
+    }
+    
+    .nav__container4__img {
+        width: 23px;
+    }
+}
+@media (max-width: 814px) {
+    .nav__container2__menu__Links {
+        padding: 1px 4px;
+    }
+    
+    .nav__container4 a {
+        padding: 1px 0;
+        padding-left: 4px;
+    }
+    
+    .nav__container4__img {
+        width: 18px;
+    }
+}
+@media (max-width: 729px) {
+    .nav__container2__menu {
+        padding: 31px 0;
+        flex-wrap: wrap;
+        
+    } 
+    .nav__container2__menu__list{
+        padding: 1px;
+    }
+    .nav__container1 {
+        display: none;
+        /*Logo naik BLANCO*/
+    }
+    .nav__container1__img {
+        display: none;
+    }
+}
+@media (max-width: 660px) {
+    .nav__container3__form_input {
+        border-radius: 5px;
+        border-color: #FFA400;
+        height: 35px;
+        width: 80px;
+        font-size: 14px;
+    }
+    
+    .nav__container4 a {
+       padding-top: 16px;
+    }
+}
+@media (max-width: 546px) {
+    .nav {
+        height: 120px;
+    }
+    
+    .nav__container2__menu {
+        padding: 20px 60px;
+        display: inline-block;
+    } 
+    .nav__container4 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        /*Carrito de compras y favoritos*/
+    }
 
+    .nav__container3__form_input {
+        border-radius: 5px;
+        border-color: #FFA400;
+        height: 35px;
+        width: 150px;
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 481px) {
+    
+    .nav__container2__menu {
+        padding: 20px 4px;
+        display: inline-block;
+    } 
 
+    .nav__container3__form_input {
+        border-radius: 5px;
+        border-color: #FFA400;
+        height: 35px;
+        width: 100px;
+        font-size: 14px;
+    }
+}
 
 
 
@@ -579,6 +698,77 @@
 .account__container__form__submit:hover {
     background-color: black;
 }
+
+@media only screen and (max-width: 620px) {
+    .account__container {
+        top: 50%;
+        left: 50%;
+        width: 360px;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        padding-left: 43px;
+        background-color: white;
+        border: 2px solid #FFA400;
+    }
+
+    .account__container__img {
+        width: 100px;
+        margin-left: 103px;
+    }
+
+    .account__container__form {
+      width: 90%;
+    }
+    .account__container__form__label1, 
+    .account__container__form__label2,
+    .account__container__form__label3,
+    .account__container__form__label4 {
+      font-size: 1rem;
+    }
+    .account__container__form__input1,
+    .account__container__form__input2,
+    .account__container__form__input3,
+    .account__container__form__input4,
+    .account__container__form__submit {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
+  @media only screen and (max-width:400px) {
+    .account__container {
+        top: 50%;
+        left: 50%;
+        width: 280px;
+        transform: translate(-50%, -50%);
+        padding: 6px;
+        padding-left: 32px;
+        background-color: white;
+        border: 2px solid #FFA400;
+    }
+
+    .account__container__img {
+        width: 100px;
+        margin-left: 70px;
+    }
+
+    .account__container__form {
+      width: 90%;
+    }
+    .account__container__form__label1, 
+    .account__container__form__label2,
+    .account__container__form__label3,
+    .account__container__form__label4 {
+      font-size: 1rem;
+    }
+    .account__container__form__input1,
+    .account__container__form__input2,
+    .account__container__form__input3,
+    .account__container__form__input4,
+    .account__container__form__submit {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  }
 /*ACCOUNT*/
 
 
@@ -984,6 +1174,107 @@ padding: 7px;
 .footer__copyright p {
     font-size: 15px;
 }
+
+@media (max-width: 1300px) {
+    .footer {
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .footer__newsletter__title {
+        margin-top: 20px;
+        
+    }
+    .footer__map {
+        margin: 20px;
+        padding: 0;
+        width: fit-content;
+    } 
+    .footer__map__iframe {
+        border: none;
+        width: 100%;
+        height: 180px;
+    }
+    .footer__info {
+        margin: 20px;
+        width: fit-content;
+    }
+    .footer__social {
+        margin: 20px;
+        width: fit-content;
+    }
+    .footer__support {
+        margin: 20px;
+        margin-left: 5px;
+        padding: 0;
+    } 
+    .main1 {
+        max-width: 800px;
+        height: 900px;
+        margin: 0 auto;
+        padding: 20px;
+    }    
+}
+@media (max-width: 649px) {
+    .main1 {
+        max-width: 800px;
+        height: 1020px;
+        margin: 0 auto;
+        padding: 20px;
+    }    
+}
+@media (max-width: 542px) {
+    .main1 {
+        max-width: 800px;
+        height: 1300px;
+        margin: 0 auto;
+        padding: 20px;
+    }    
+}
+@media (max-width: 420px) {
+    .main1 {
+        max-width: 800px;
+        height: 1500px;
+        margin: 0 auto;
+        padding: 20px;
+    }    
+    .footer__copyright p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 385px) {
+    .main1 {
+        max-width: 800px;
+        height: 1600px;
+        margin: 0 auto;
+        padding: 20px;
+    }    
+}
+@media (max-width: 385px) {
+    .main1 {
+        max-width: 800px;
+        height: 1600px;
+        margin: 0 auto;
+        padding: 20px;
+    }    
+    .footer__newsletter__form1__input{
+        width: 150px;
+        
+    }
+    .footer__newsletter__form2__button {
+    padding: 2px;
+    
+    }
+    
+}
+@media (max-width: 351px) {
+    .main1 {
+        max-width: 800px;
+        height: 1800px;
+        margin: 0 auto;
+        padding: 20px;
+    }    
+}
+
 
 
 /* Barra de scroll */
