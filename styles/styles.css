@@ -127,6 +127,19 @@
     padding-left: 30px;
 }
 
+.nav__container4--index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    /*Carrito de compras y favoritos*/
+}
+
+.nav__container4--index a {
+    padding: 6px 12px 10px 3px;
+    
+}
+
 .nav__container4__img {
     width: 23px;
 }
