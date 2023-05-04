@@ -6,22 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="shortcut icon" href="images/NAIK WHITE ICO.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/NAIK WHITE ICO.png" type="image x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Site official de naik. Naik AR</title>
 </head>
 
 <body class="body">
 
     <!--Logo naik antes del header+nav-->
-    <div class="container">
+    <div class="container-logo">
         <a href="index.html">
-            <img class="container-img" src="images/NAIK BLACK.png" alt="LOGO NAIK">
+            <img class="container-logo__img" src="images/NAIK BLACK.png" alt="LOGO NAIK">
         </a>
     </div>
     <!--header+nav con position sticky (menu)-->
@@ -114,27 +111,30 @@
         </section>
 
         <!--PRODUCTOS DESTACADOS-->
-        <section class="products">
-            <!--Titulo-->
-            <h2 class="products__h2">PRODUCTOS DESTACADOS</h2>
-            <!--botón de ver todos los productos-->
-            <a class="products__link" href="pages/products.html"><button class="products__link-button">Ver todo</button></a>
-            <!--contenedor del par de productos-->
-            <div class="products__container">
-                <div class="products__pair">
-                    <!--Producto 1-->
-                    <div class="products__pair-item">
-                        <img src="images/BOTITAS AIR JORDAN 1 MID.jpeg" alt="BOTITAS AIR JORDAN 1 MID">
-                        <h3>BOTITAS AIR JORDAN 1 MID</h3>
-                        <p>$161.26</p>
-                        <button>Comprar</button>
-                    </div>
-                    <!--Producto 2-->
-                    <div class="products__pair-item">
-                        <img src="images/BOTITAS NAIK AIR FORCE 1 MID 07 LV8.jpeg" alt="BOTITAS NAIK AIR FORCE 1 MID 07 LV8">
-                        <h3>BOTITAS NAIK AIR FORCE 1 MID 07 LV8</h3>
-                        <p>$171.14</p>
-                        <button>Comprar</button>
+        <section class="products-box">
+            <div class="products">
+                <!--Titulo-->
+                <h2 class="products__h2">PRODUCTOS DESTACADOS</h2>
+                <!--botón de ver todos los productos-->
+                <a class="products__link" href="pages/products.html"><button class="products__link-button">Ver todo</button></a>
+                <!--contenedor del par de productos-->
+                <div class="products__container">
+                    <div class="products__pair">
+                        <!--Producto 1-->
+                        <div class="products__pair-item">
+                            <img src="images/BOTITAS AIR JORDAN 1 MID.jpeg" alt="BOTITAS AIR JORDAN 1 MID">
+                            <h3>BOTITAS AIR JORDAN 1 MID</h3>
+                            <p>$161.26</p>
+                            <button>Comprar</button>
+                        </div>
+                        <!--Producto 2-->
+                        <div class="products__pair-item">
+                            <img src="images/BOTITAS NAIK AIR FORCE 1 MID 07 LV8.jpeg"
+                                alt="BOTITAS NAIK AIR FORCE 1 MID 07 LV8">
+                            <h3>BOTITAS NAIK AIR FORCE 1 MID 07 LV8</h3>
+                            <p>$171.14</p>
+                            <button>Comprar</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -146,84 +146,90 @@
         </section>
 
         <!--Sección de hombres con sus productos-->
-        <section class="products">
-            <!--Titulo-->
-            <h2 class="products__h2">Hombres</h2>
-            <!--botón de ver todos los productos-->
-            <a class="products__link" href="pages/products.html"><button class="products__link-button">Ver todo</button></a>
-            <!--contenedor del par de productos-->
-            <div class="products__container">
-                <div class="products__pair">
-                    <!--Producto 1-->
-                    <div class="products__pair-item">
-                        <img src="images/BOTITAS NAIK DUNK HI RETRO.jpeg" alt="BOTITAS NAIK DUNK HI RETRO">
-                        <h3>BOTITAS NAIK DUNK HI RETRO</h3>
-                        <p>$161.26</p>
-                        <button>Comprar</button>
-                    </div>
-                    <!--Producto 2-->
-                    <div class="products__pair-item">
-                        <img src="images/BOTITAS AIR JORDAN 1 MID.jpeg" alt="BOTITAS AIR JORDAN 1 MID">
-                        <h3>BOTITAS AIR JORDAN 1 MID</h3>
-                        <p>$161.26</p>
-                        <button>Comprar</button>
+        <section class="products__container">
+            <div class="products">
+                <!--Titulo-->
+                <h2 class="products__h2">Hombres</h2>
+                <!--botón de ver todos los productos-->
+                <a class="products__link" href="pages/products.html"><button class="products__link-button">Ver todo</button></a>
+                <!--contenedor del par de productos-->
+                <div class="products__container">
+                    <div class="products__pair">
+                        <!--Producto 1-->
+                        <div class="products__pair-item">
+                            <img src="images/BOTITAS NAIK DUNK HI RETRO.jpeg" alt="BOTITAS NAIK DUNK HI RETRO">
+                            <h3>BOTITAS NAIK DUNK HI RETRO</h3>
+                            <p>$161.26</p>
+                            <button>Comprar</button>
+                        </div>
+                        <!--Producto 2-->
+                        <div class="products__pair-item">
+                            <img src="images/BOTITAS AIR JORDAN 1 MID.jpeg" alt="BOTITAS AIR JORDAN 1 MID">
+                            <h3>BOTITAS AIR JORDAN 1 MID</h3>
+                            <p>$161.26</p>
+                            <button>Comprar</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!--Sección de mujeres con sus productos-->
-        <section class="products">
-            <!--Titulo-->
-            <h2 class="products__h2">Mujeres</h2>
-            <!--botón de ver todos los productos-->
-            <a class="products__link" href="pages/products.html"><button class="products__link-button">Ver todo</button></a>
-            <!--contenedor del par de productos-->
-            <div class="products__container">
-                <div class="products__pair">
-                    <!--Producto 1-->
-                    <div class="products__pair-item">
-                        <img src="images/ZAPATILLAS NAIK AIR FORCE 1 REACT.jpeg" alt="ZAPATILLAS NAIK AIR FORCE 1 REACT">
-                        <h3>ZAPATILLAS NAIK AIR FORCE 1 REACT</h3>
-                        <p>$197.47</p>
-                        <button>Comprar</button>
-                    </div>
-                    <!--Producto 2-->
-                    <div class="products__pair-item">
-                        <img src="images/BOTITAS NAIK BLAZER MID 77 SE.jpeg" alt="BOTITAS NAIK BLAZER MID 77 SE">
-                        <h3>BOTITAS NAIK BLAZER MID 77 SE</h3>
-                        <p>$128.10</p>
-                        <button>Comprar</button>
+        <section class="products__container">
+            <div class="products">
+                <!--Titulo-->
+                <h2 class="products__h2">Mujeres</h2>
+                <!--botón de ver todos los productos-->
+                <a class="products__link" href="pages/products.html"><button class="products__link-button">Ver todo</button></a>
+                <!--contenedor del par de productos-->
+                <div class="products__container">
+                    <div class="products__pair">
+                        <!--Producto 1-->
+                        <div class="products__pair-item">
+                            <img src="images/ZAPATILLAS NAIK AIR FORCE 1 REACT.jpeg" alt="ZAPATILLAS NAIK AIR FORCE 1 REACT">
+                            <h3>ZAPATILLAS NAIK AIR FORCE 1 REACT</h3>
+                            <p>$197.47</p>
+                            <button>Comprar</button>
+                        </div>
+                        <!--Producto 2-->
+                        <div class="products__pair-item">
+                            <img src="images/BOTITAS NAIK BLAZER MID 77 SE.jpeg" alt="BOTITAS NAIK BLAZER MID 77 SE">
+                            <h3>BOTITAS NAIK BLAZER MID 77 SE</h3>
+                            <p>$128.10</p>
+                            <button>Comprar</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!--Sección de niños y sus productos-->
-        <section class="products">
-            <!--Titulo-->
-            <h2 class="products__h2">Niños/as</h2>
-            <!--botón de ver todos los productos-->
-            <a class="products__link" href="pages/products.html"><button class="products__link-button">Ver todo</button></a>
-            <!--contenedor del par de productos-->
-            <div class="products__container">
-                <div class="products__pair">
-                    <!--Producto 1-->
-                    <div class="products__pair-item">
-                        <img src="images/ZAPATILLAS NAIK AIR FORCE 1 07 NEXT NATURE.jpeg"
-                            alt="ZAPATILLAS NAIK AIR FORCE 1 07 NEXT NATURE">
-                        <h3>ZAPATILLAS NAIK AIR FORCE 1 07</h3>
-                        <p>$141.52</p>
-                        <button>Comprar</button>
+        <section class="products__container">
+            <div class="products">
+                <!--Titulo-->
+                <h2 class="products__h2">Niños/as</h2>
+                <!--botón de ver todos los productos-->
+                <a class="products__link" href="pages/products.html"><button class="products__link-button">Ver todo</button></a>
+                <!--contenedor del par de productos-->
+                <div class="products__container">
+                    <div class="products__pair">
+                        <!--Producto 1-->
+                        <div class="products__pair-item">
+                            <img src="images/ZAPATILLAS NAIK AIR FORCE 1 07 NEXT NATURE.jpeg"
+                                alt="ZAPATILLAS NAIK AIR FORCE 1 07 NEXT NATURE">
+                            <h3>ZAPATILLAS NAIK AIR FORCE 1 07</h3>
+                            <p>$141.52</p>
+                            <button>Comprar</button>
+                        </div>
+                        <!--Producto 2-->
+                        <div class="products__pair-item">
+                            <img src="images/ZAPATILLAS NAIK AIR FORCE 1 ROSE.jpeg" alt="ZAPATILLAS NAIK AIR FORCE 1 ROSE">
+                            <h3>ZAPATILLAS NAIK AIR FORCE 1 ROSE</h3>
+                            <p>$113.67</p>
+                            <button>Comprar</button>
+                        </div>
                     </div>
-                    <!--Producto 2-->
-                    <div class="products__pair-item">
-                        <img src="images/ZAPATILLAS NAIK AIR FORCE 1 ROSE.jpeg" alt="ZAPATILLAS NAIK AIR FORCE 1 ROSE">
-                        <h3>ZAPATILLAS NAIK AIR FORCE 1 ROSE</h3>
-                        <p>$113.67</p>
-                        <button>Comprar</button>
-                    </div>
-                </div> 
+                </div>
             </div>
         </section>
 
@@ -318,11 +324,10 @@
             </div>
         </div>
         <!--copyright-->
-        <div class="footer__copy">
-            <p class="footer__copy-p">Todos los derechos reservados © Naik, 2023</p>
+        <div class="footer__copyright">
+            <p class="footer__copy-paragraph">Todos los derechos reservados © Naik, 2023</p>
         </div>
     </footer>
-    <script src="scripts/bootstrap.min.js"></script>
 </body>
 
 </html>
