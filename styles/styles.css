@@ -792,23 +792,19 @@
   padding: 20px;
   text-align: center;
 }
-
 .products__pair-item img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
-
 .products__pair-item h3 {
   font-size: 1.7rem;
   margin-bottom: 10px;
 }
-
 .products__pair-item p {
   margin-bottom: 20px;
   font-size: 1.6rem;
 }
-
 .products__pair-item button {
   background-color: #0066cc;
   color: #fff;
@@ -818,7 +814,6 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 .products__pair-item button:hover {
   background-color: #0052a3;
 }
@@ -1282,41 +1277,31 @@
 
 /*Filas con productos (van de a 4 productos cada fila en 1920x1080)*/
 .product__row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
 /*items de las rows*/
-.product__row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-
 .product__item {
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
   text-align: center;
 }
-
 .product__item img {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
-
 .product__item h3 {
   font-size: 1.7rem;
   margin-bottom: 10px;
 }
-
 .product__item p {
   margin-bottom: 20px;
   font-size: 1.6rem;
 }
-
 .product__item button {
   background-color: #0066cc;
   color: #fff;
@@ -1326,7 +1311,6 @@
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
 .product__item button:hover {
   background-color: #0052a3;
 }
